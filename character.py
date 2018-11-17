@@ -46,12 +46,12 @@ class Character():
             print_sleep('You`re already friends. Not sure why. But you are.', 3)
         else:
             if not self.gift:
-                print_sleep("You cannot be friends with " + self.name + \
+                print_sleep("You cannot be friends with " + self.name +
                             ". You do remember you destroyed this lovely human being's life, right?", 5)
             elif self.gift == gift:
                 print_sleep('Congrats! You made a friend. We all know you need more of those.', 3)
             else:
-                print_sleep('If you actually listened to what people say, you would now know what to bring as a gift.', 4)
+                print_sleep('That was definitely not the right gift.', 4)
 
     def hug(self):
         if self.is_friend:

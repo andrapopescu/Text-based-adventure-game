@@ -22,7 +22,7 @@ while alive:
         else:
             print_sleep('You`re asking if an empty room is a friend or an enemy?', 1)
             print_sleep('Right ...', 2)
-            print_sleep('An enemy. Definitely an enemy.' , 2)
+            print_sleep('An enemy. Definitely an enemy.', 2)
     elif command == 'talk':
         if inhabitant:
             inhabitant.talk()
