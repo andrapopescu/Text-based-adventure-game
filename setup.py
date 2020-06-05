@@ -8,22 +8,22 @@ def setup_characters():
             is_friend=False,
             name='Jim',
             description='A smelly zombie',
-            conversation='You do realize you are trying to talk to zombie, right?',
-            weakness='dab',
+            conversation='You do realize you are trying to talk to "dance" loving zombie, right?',
+            weakness='dance',
         ),
         'emily': Character(
             is_friend=False,
             name='Emily',
             description='A friendly bee (But she is still your enemy. What did you do to upset her?)',
-            conversation='Beep beep I`m a sheep. I said beep beep I`m a sheep.',
+            conversation='I "love" honey and I do not want to be gifted "a heart" under any circumstances!',
             weakness='honey',
             gift='a heart',
         ),
-        'jamie': Character(
+        'rose': Character(
             is_friend=True,
-            name='Jamie',
-            description='Pigeon',
-            conversation='I`m in denial about being a pigeon ... ',
+            name='Rose',
+            description='She is a pretty flower',
+            conversation='Look at my beautiful colours!',
         ),
     }
 
@@ -36,7 +36,7 @@ def setup_rooms():
         'kitchen': {
             'description': 'This is my kitchen.',
             'linked-rooms': (('living-room', 'east'), ('bathroom', 'south')),
-            'characters': ('jamie',),
+            'characters': ('rose',),
         },
         'living-room': {
             'description': 'This is my living room.',

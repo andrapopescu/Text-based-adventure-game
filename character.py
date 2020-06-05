@@ -37,7 +37,7 @@ class Character():
                 print_sleep('You won!? I was not expecting that...', 3)
                 return True
             else:
-                print('Are you even trying? You lost! Happy now?', 1)
+                print_sleep('Are you even trying? You lost! Happy now?', 1)
                 return False
 
     # TODO: mark a friend as enemy is you're trying to give them something they hate
